@@ -1,0 +1,23 @@
+.rootContainer {
+    /* vw: View width */
+    /* 100vw: 100% of screen width */
+    width: 100vw;
+    /* vh: View height */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(251, 223, 255);
+    justify-content: space-between;
+    align-items: center;
+}
+.leftContainer {
+    /* 25% of parent width */
+    width: 25%;
+    height: 98%;
+    background-color: rgb(255, 159, 223)
+}
+.rightContainer {
+    width: 72%;
+    height: 98%;
+    background-color: bisque;
+}

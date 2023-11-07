@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+}
+p {
+    font-size: 20px;
+}
+.title {
+    font-size: 40px;
+    color: darkslategrey;
+}
+.regularFont {
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    margin: 10px;
+}

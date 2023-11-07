@@ -1,0 +1,42 @@
+.rootContainer {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+
+.loginContainer {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+.textbox1 {
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.textbox2 {
+    background-color: pink;
+    width: 200px;
+    height: 100%
+}
+
+.linkContainer {
+    background-color: beige;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: flex-end
+}

@@ -1,0 +1,15 @@
+.galleryContainer {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.photo {
+    width: 200px;
+    height: 180 px;
+    object-fit: cover;
+}
